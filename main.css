@@ -8,19 +8,25 @@ header,
 section h2,
 section h3,
 form button {
-        font-family: "Bungee", sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: normal;
 }
+
+h1 {
+    color:#7ddfb6
+}
+
 
 body,
 input,
 textarea {
-    font-family: "Roboto", sans-serif;
+    font-family: "Calibri", sans-serif;
+    font-size: 20px;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182C61 ;
+    background-color: #0b794b ;
     color: #ecf0f1;
 }
 
@@ -49,8 +55,9 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    width: 150px;
 }
+
 
 .brands-list li {
     display: inline;
@@ -70,14 +77,14 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: #0b794b;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.pump {
     margin-right: 32px;
 }
 
@@ -122,7 +129,7 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #0b794b;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
@@ -130,15 +137,43 @@ form button {
 }
 
 form button:hover {
-    background-color: #26418a;
+    background-color:#0b794b;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61 ;
+    outline-color: #0b794b ;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #0b794b;
     color: #ecf0f1;
     padding: 16px 0;
 }
+
+#about .container{
+    align-items: center;
+}
+
+#equipments .container{
+    display: flex;
+    align-items: center;
+}
+
+#equipments .container img {
+    box-shadow: 50px 50px 50px rgba(0,0,0,.1);
+}
+
+ul { 
+    list-style-type: "✅"; 
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
